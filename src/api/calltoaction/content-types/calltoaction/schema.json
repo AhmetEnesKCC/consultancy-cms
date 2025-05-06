@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "calltoactions",
+  "info": {
+    "singularName": "calltoaction",
+    "pluralName": "calltoactions",
+    "displayName": "calltoaction",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "label": {
+      "type": "string"
+    },
+    "bg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

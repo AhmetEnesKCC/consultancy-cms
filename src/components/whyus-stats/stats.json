@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_whyus_stats_stats",
+  "info": {
+    "displayName": "stats"
+  },
+  "options": {},
+  "attributes": {
+    "prefix": {
+      "type": "string"
+    },
+    "suffix": {
+      "type": "string"
+    },
+    "label": {
+      "type": "text"
+    },
+    "value": {
+      "type": "integer"
+    }
+  }
+}

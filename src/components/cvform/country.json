@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_cvform_countries",
+  "info": {
+    "displayName": "country"
+  },
+  "options": {},
+  "attributes": {
+    "code": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "flag": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "dialCode": {
+      "type": "string"
+    }
+  }
+}

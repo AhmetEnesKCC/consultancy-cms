@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "cv_forms",
+  "info": {
+    "singularName": "cv-form",
+    "pluralName": "cv-forms",
+    "displayName": "cvForm",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "input": {
+      "displayName": "cvform-input",
+      "type": "component",
+      "repeatable": true,
+      "component": "cvform.cvform-input"
+    }
+  }
+}
